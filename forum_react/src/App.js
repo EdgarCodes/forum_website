@@ -1,9 +1,22 @@
-import './App.css';
+import { Switch, Route, Link } from 'react-router-dom';
+import './CSS/App.css';
+import Home from './Pages/Home'
+import About from "./Pages/About"
+import NavBar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Django World!</h1>
+      <NavBar/>
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
     </div>
   );
 }
