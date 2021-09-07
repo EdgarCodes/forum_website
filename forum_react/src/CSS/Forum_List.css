@@ -1,0 +1,75 @@
+.forum_list
+{
+    background-color: white;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: 1px 2px 2px rgb(189, 189, 189);
+}
+
+.forum_list_title
+{
+    background: #502e3a;
+    display: flex;
+    justify-content: center;
+    padding: .3rem;
+}
+
+.forum_list_title p
+{
+    color: white;
+    margin: 0;
+}
+
+.forum_item
+{
+    border: 1px solid rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+}
+
+.forum_item_title h1
+{
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+}
+
+.forum_item_title p
+{
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(49, 49, 49);
+}
+
+.forum_item_info
+{
+    display: flex;
+    align-items: center;
+}
+
+.forum_item_info p
+{
+    margin: 0%;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(49, 49, 49);
+}
+
+.forum_item_info h1
+{
+    margin: 0%;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(49, 49, 49);
+}
+
+
+.temp_block
+{
+    background-color: grey;
+    height: 45px;
+    width: 45px;
+    margin: 0px 10px;
+}

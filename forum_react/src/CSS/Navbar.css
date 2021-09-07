@@ -1,0 +1,84 @@
+.top-nav
+{
+    background-color: #2c1920;
+}
+
+.top-nav .nav-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .nav-logo .navbar-brand
+{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: -5px;
+}
+
+.top-nav .nav-icon
+{
+    color: white;
+    font-size: 35px;
+    /* padding: 20px 15px 20px 15px; */
+    padding: 12px 8px 12px 8px; 
+    margin: 2.5px 0;
+    background-color: #502e3a;
+    border-radius: 50px;
+}
+
+.top-nav .nav-text
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.top-nav .nav-text p
+{
+    margin-top: -5px;
+    color:white;
+    font-size: 15px;
+    font-weight: 150;
+}
+
+.top-nav .nav-user .btn
+{
+    background-color: #502e3a;
+    border-color: #502e3a;
+    margin: 0px 5px;
+
+}
+
+.top-nav .nav-user .btn:hover
+{
+    background-color: #5e3644;
+}
+
+.top-nav .nav-user .btn:active
+{
+    background-color: #744153;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.top-nav .nav-user .btn:focus
+{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.bottom-nav
+{
+    background-color: #502e3a;
+}
+
+
+@media only screen and (max-width: 800px) {  
+    .top-nav .nav-user .btn
+    {
+        display: none;
+    }
+}
